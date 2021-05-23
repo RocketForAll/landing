@@ -1,0 +1,54 @@
+body, html {
+height: 100%;
+    display: block;
+    margin: 8px;
+}
+h1 {
+	color:teal;
+	font-family:times;
+	font-size:22px;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color:white;
+	padding:15px  20px;
+	border-radius: 4px;
+	float:right;
+}
+.btn-blue:hover{
+	background-color:red;
+	color:white;
+}
+.header {
+padding: 100px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+.footer {
+padding: 20px;
+text-align: center;
+color:teal;
+background: #ddd;
+margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
